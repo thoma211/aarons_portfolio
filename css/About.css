@@ -32,6 +32,10 @@ a:hover{
 	max-height: 800px;
 }
 
+.img-responsive{
+	overflow: hidden!important;
+}
+
 
 /*Attempt at flipping card*/
 
@@ -167,14 +171,13 @@ h2{
 /*To scroll the image for smaller screens*/
 @media screen and (max-width: 768px){
 	.picture{
-		margin-left:-100%;/* whatever */
+		margin-left:-100%;
 	}
 }
 
-/*To center image on extremely large screens*/
 @media screen and (min-width: 1900px){
 	.picture{
-		display: block;/* whatever */
+		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
