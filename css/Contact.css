@@ -1,0 +1,122 @@
+.navbar{
+	background: #FFFFFF!important;
+}
+
+.navbar li{
+	display: inline-block;
+	text-align: center;
+}
+
+.navbar{
+	font-family: "Century Gothic";
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 17px;
+	padding-right: 20px;
+}
+
+a{
+	padding-left: 50px;
+}
+
+a:hover{
+color: lightseagreen!important;
+}
+
+.img-responsive{
+	overflow: hidden!important;
+}
+
+.picture{
+	width: 1900px!important;
+}
+
+.container{
+	background-color: white;
+	position:absolute;
+	top: 15%;
+	right: 300px!important;
+	padding: 20px;
+	width: 500px!important;
+	height: auto;
+}
+
+
+h2{
+	font-family: "Century Gothic"!important;
+	font-weight: 100!important;
+}
+
+h4, p{
+	font-family: "Century Gothic"!important;
+}
+
+.form-control{
+	font-family: "Century Gothic";
+	padding: 5px!important;
+}
+
+.form-group{
+	padding: 0!important;
+	line-height: 15px!important;
+}
+
+.error-message{
+	padding: 0!important;
+	margin: 0!important;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    text-align: center;
+    text-decoration: none;
+}
+
+/* LinkedIn hover effect*/
+.fa:hover {
+    opacity: 0.7;
+	text-decoration: none!important;
+}
+
+/*removed the stubbern line under the icon when pressed*/
+.fa:visited, .fa:active, .fa:focus {
+    text-decoration: none!important;
+}
+
+@media screen and (max-width: 768px){
+	.picture{
+		margin-left:-100%;
+	}
+}
+
+@media screen and (min-width: 1900px){
+	.picture{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 1041px) {
+	#topFixedNavbar1 ul li a{
+		padding: 5px!important;
+	}
+}
+
+@media screen and (min-width: 150px) and (max-width: 1374px){
+	.container{
+	left: 0;
+	width: 300px!important;
+	height: auto;
+	}
+}
+
+.footer {
+  font-family: "Century Gothic";
+  bottom: 0;
+  left: 0;
+  padding: 0.1rem;
+  background-color: white;
+  text-align: left;
+}

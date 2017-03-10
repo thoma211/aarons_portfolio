@@ -1,0 +1,163 @@
+body{
+	padding-top: 100px;
+}
+
+.navbar{
+	background: #FFFFFF!important;
+}
+
+.navbar li{
+	display: inline-block;
+	text-align: center;
+}
+
+.navbar{
+	font-family: "Century Gothic";
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 17px;
+}
+
+a{
+	padding-left: 50px;
+}
+
+a:hover{
+	color: lightseagreen!important;
+}
+
+#image-gallery-title{
+	font-family: "Century Gothic";
+	font-size: 20px
+}
+
+#image-gallery-caption{
+	font-family: "Century Gothic";
+}
+
+#show-previous-image{
+	font-family: "Century Gothic"
+}
+
+#show-next-image{
+	font-family: "Century Gothic"
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.boxIndent:hover{
+	cursor:pointer;
+	border: inset;
+  background-color: #AAA;
+  transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+}
+
+.col-sm-6{
+	max-height: 480px;
+	justify-content: center!important;
+	overflow: hidden;
+	border: groove;
+}
+
+.thumb {
+	background-color: transparent!important;
+}
+
+.thumbnail{
+	background-color: transparent!important;
+	border: none!important;
+    box-shadow: none!important;
+}
+
+.img-responsive{
+	background-color: transparent!important;
+}
+
+.centerMyImages{
+	background-color: transparent!important;
+}
+
+.modal-content{
+	width: 100%;
+
+}
+
+.carousel-control{
+	background-image: none!important;
+}
+
+/* Adds white hover effect to edge of images (left side), instead of bootstraps default one */
+.left.carousel-control:hover{
+ 	background: -webkit-linear-gradient(right, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* Standard syntax (must be last) */
+}
+
+/* Adds white hover effect to edge of images (right side), instead of bootstraps default one */
+.right.carousel-control:hover{
+ 	background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* Standard syntax (must be last) */
+}
+
+@media screen and (max-width: 821px) {
+	#topFixedNavbar1 ul li a{
+		padding: 5px!important;
+	}
+}
+
+@media (max-width: 480px) {
+    .left, 
+    .right {
+        float: none;
+        width: auto;
+    }
+}
+
+@media (max-width: 821px) {
+	#topFixedNavbar1 ul li a{
+		padding: 5px!important;
+	}
+}
+
+/*To adjust the position of tiles under nav for different screen sizes*/
+@media (max-width: 767px) {
+		body{
+		padding-top: 76px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 821px) {
+		body{
+		padding-top: 126px;
+	}
+}
+
+@media (min-width: 822px) and (max-width: 1021px) {
+		body{
+		padding-top: 146px;
+	}
+}
+
+@media (min-width: 1022px) and (max-width: 1900px) {
+		body{
+		padding-top: 76px;
+	}
+}
+
+.footer {
+  font-family: "Century Gothic";
+  bottom: 0;
+  left: 0;
+  padding: 0.1rem;
+  background-color: white;
+  text-align: left;
+}

@@ -1,0 +1,111 @@
+body{
+	padding-top: 100px;
+}
+
+.navbar{
+	background: #FFFFFF!important;
+}
+
+.navbar li{
+	display: inline-block;
+	text-align: center;
+}
+
+.navbar{
+	font-family: "Century Gothic";
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 17px;
+}
+
+/* Removes Bootstraps default, grey background image. */
+.carousel-control{
+	background-image: none!important;
+}
+
+/* Adds white hover effect to edge of images (left side), instead of bootstraps default one */
+.left.carousel-control:hover{
+ 	background: -webkit-linear-gradient(right, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* Standard syntax (must be last) */
+}
+
+/* Adds white hover effect to edge of images (right side), instead of bootstraps default one */
+.right.carousel-control:hover{
+ 	background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,1))!important; /* Standard syntax (must be last) */
+}
+
+a{
+	padding-left: 50px;
+}
+
+a:hover{
+color: lightseagreen!important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+.item.active img{
+margin-left: auto;
+margin-right: auto;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    margin:auto;
+}
+
+/*To keep footer at the very bottom of the page*/
+body {
+    min-height: 100%;
+    position: relative;
+}
+
+body:after {
+    content: '';
+    display: block;
+    height: 40px;
+}
+
+@media (max-width: 821px) {
+	#topFixedNavbar1 ul li a{
+		padding: 5px!important;
+	}
+}
+
+/*To adjust the position of tiles under nav for different screen sizes*/
+@media (max-width: 767px) {
+		body{
+		padding-top: 76px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+		body{
+		padding-top: 127px;
+	}
+}
+
+@media (min-width: 822px) and (max-width: 1021px) {
+		body{
+		padding-top: 147px;
+	}
+}
+
+@media (min-width: 1022px) and (max-width: 2500px) {
+		body{
+		padding-top: 78px;
+	}
+}
+.footer {
+  font-family: "Century Gothic";
+  background-color: white;
+   position: fixed;
+    bottom: 0;
+	padding-left: 50px;
+    width: 100%;
+    height: 50px;
+}

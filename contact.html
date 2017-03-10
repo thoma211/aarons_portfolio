@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="Aaron Thoms Design Portfolio" content="Contact page">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aaron Thomas Contact</title>
+
+<link href="css/Contact.css" type="text/css" rel="stylesheet" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+         <a href="index.html">
+    <img src="images/Nav/Branding.png" alt="Aaron Thomas Logo">
+    </a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+      <ul class="nav navbar-nav navbar-right center-block">
+        <li><a href="index.html">
+			<div> <img src="images/Nav/Nav-Icon.png" width="125" height="10" alt="Nav-Icon"/> </div>
+			Welcome	</a>
+		</li>
+     	<li><a href="3d_portfolio.html">
+			<div><img src="images/Nav/Nav-Icon.png" width="125" height="10" alt="Nav-Icon"/></div>
+			3D Portfolio</a> 
+     	</li>
+      	<li><a href="2d_portfolio.html">
+			<div><img src="images/Nav/Nav-Icon.png" width="125" height="10" alt="Nav-Icon"/></div>
+			2D Portfolio</a> 
+        </li>
+        <li><a href="photography.html">
+			<div><img src="images/Nav/Nav-Icon.png" width="125" height="10" alt="Nav-Icon"/></div>
+			Photography</a>
+      	</li>
+       
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><div> <img src="images/Nav/Current-Page-Nav.png" width="125" height="10" alt="Nav-Icon"/> </div>More<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><div> <img src="images/Nav/Nav-Icon.png" width="125" height="10" alt="Nav-Icon"/> </div><a href="about.html">About</a></li>
+            <li role="separator" class="divider"></li>
+            <li><div> <img src="images/Nav/Current-Page-Nav.png" width="125" height="10" alt="Nav-Icon"/> </div><a href="contact.html">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+<div class="img-responsive">
+	<img src="images/Contact/contactImage.jpg" class="picture" alt="About Me Image">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+			<h2>GET IN TOUCH</h2>
+			<h4>Email</h4>
+			<p>aaronthomas1988@hotmail.co.uk</p>
+			<div><a href="https://www.linkedin.com/in/aaron-thomas-0ab050a5" target="_blank" class="fa fa-linkedin-square fa-5x"></a></div>			
+		<!--Contact Form-->
+			<form action="MAILTO:aaronthomas1988@hotmail.co.uk">
+			  <div class="form-group">
+				<label for="contact-name"></label>
+				<input type="text" class="form-control" id="contact-name" name="name" placeholder="Name" onkeyup="validateName()">
+				<span class="error-message" id="name-error"></span>
+			  </div>
+
+			  <div class="form-group">
+				<label for="contact-phone"></label>
+				<input type="tel" class="form-control" id="contact-phone" name="phone" placeholder="Phone Number" onkeyup="validatePhone()">
+				<span class="error-message" id="phone-error"></span>
+			  </div>
+
+			  <div class="form-group">
+				<label for="contact-email"></label>
+				<input type="email" class="form-control" id="contact-email" name="email" placeholder="Email Address" onkeyup="validateEmail()">
+				<span class="error-message" id="email-error"></span>
+			  </div>   
+
+			  <div class="form-group">
+				<label for="contactMessage"></label>
+				<textarea class="form-control" rows="5" id="contact-message"  name="message"  placeholder="Message" onkeyup="validateMessage()"></textarea>
+				<span class="error-message" id="message-error"></span>
+			  </div>
+
+			<button onclick="return validateForm()" class="btn btn-default">Submit</button>
+			<span class="error-message" id="submit-error"></span>
+		<!--Contact Form End-->
+		  </form>
+		</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="footer">
+		© Aaron Thomas 2017
+  </div>
+</footer>
+ 
+<script src="js/contactscript.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"crossorigin="anonymous"></script>
+</body>
+</html>

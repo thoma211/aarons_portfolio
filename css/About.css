@@ -1,0 +1,213 @@
+.navbar{
+	background: #FFFFFF!important;
+}
+
+.navbar li{
+	display: inline-block;
+	text-align: center;
+}
+
+.navbar{
+	font-family: "Century Gothic";
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 17px;
+}
+
+a{
+	padding-left: 50px;
+}
+
+a:hover{
+	color: lightseagreen!important;
+}
+
+
+.col{
+	height: 700px;
+}
+
+.picture{
+	width: 1950px!important;
+	max-height: 800px;
+}
+
+
+/*Attempt at flipping card*/
+
+.info-card {
+    float: left;
+	margin: 10px;
+	-webkit-perspective: 600px;
+}
+
+h2{
+	    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+	font-weight: 100!important;
+}
+
+p{
+	    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.front, .back {
+	background: #FFF;
+	border-radius: 10px;
+	transition: -webkit-transform 1s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	border: 1px solid black;
+	
+}
+
+.front {
+	overflow:hidden;
+	width: 662px;
+	height: 631px;
+	position: absolute;
+	z-index: 1;
+}
+
+.back {
+	width: 662px;
+	height: 631px;
+	overflow:hidden!important;
+	-webkit-transform: rotateY(-180deg);
+}
+
+.info-card:hover .back {
+	-webkit-transform: rotateY(0);
+}
+
+.info-card:hover .front {
+	-webkit-transform: rotateY(180deg);
+}
+
+.card-image {
+width: 100%;
+height: 100%;
+}
+
+#cardPosition{
+	position:absolute;
+	top: 15%;
+	left: 50%;
+	float: right!important;
+}
+
+@media screen and (min-width: 150px) and (max-width: 1374px){
+	#cardPosition, .front, .back, .card-info{
+	left: 0;
+	height: 100%;
+	width: 100%!important;
+	}
+}
+
+@media screen and (min-width: 150px) and (max-width: 460px){
+	.front{
+		overflow: scroll!important;
+	}
+}
+
+@media screen and (min-width: 150px) and (max-width: 460px){
+	.back{
+		overflow: hidden!important;
+	}
+}
+
+
+@media screen and (min-width: 150px) and (max-width: 600px){
+	p, h2{
+		 margin: 20px!important;
+  		padding: 25px!important;
+		
+	}
+}
+
+@media screen and (min-width: 150px) and (max-width: 600px){
+	p{
+		font-size: 14px!important;
+		
+	}
+}
+
+@media screen and (min-width: 150px) and (max-width: 600px){
+	h2{
+		font-size: 20px!important;
+		
+	}
+}
+
+p{
+	font-family: "Century Gothic";
+	font-size:18px;
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+h2{
+	font-family: "Century Gothic";
+	font-size: 30px;
+	font-weight: 100!important;
+	color: lightseagreen!important;
+	padding-top: 90px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+/*FLIPPING END*/
+
+/*To scroll the image for smaller screens*/
+@media screen and (max-width: 768px){
+	.picture{
+		margin-left:-100%;/* whatever */
+	}
+}
+
+/*To center image on extremely large screens*/
+@media screen and (min-width: 1900px){
+	.picture{
+		display: block;/* whatever */
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+html {
+    height: 100%;
+	
+}
+
+/*To keep footer at the very bottom of the page*/
+body {
+    min-height: 100%;
+	overflow-x: hidden;
+}
+
+body:after {
+    content: '';
+    display: block;
+    height: 10px;
+}
+
+@media screen and (max-width: 821px) {
+	#topFixedNavbar1 ul li a{
+		padding: 5px!important;
+	}
+}
+
+.footer {
+  font-family: "Century Gothic";
+  background-color: white;
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}

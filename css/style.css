@@ -1,0 +1,121 @@
+
+
+a { color:white!important;}
+
+.enterbutton {
+	color: white;
+	font-family: "Century Gothic" 		!important;
+	font-size: 34px 					!important;
+	letter-spacing: 8px 				!important;
+}
+
+.col-4{
+	height: 30px;
+}
+
+.row{
+	width: 200px!important;
+}
+
+.container{
+	display: block;
+	margin-top: 20%;
+	margin-right: 20%;
+}
+
+a {
+	font-family: "Century Gothic"		!important;
+	font-size: 14px						!important;
+	font-weight: 100					!important;
+	letter-spacing: 5px					!important;
+}
+
+a:link {
+	text-decoration:none!important;
+}
+
+a:hover{
+	color: aquamarine!important;
+}
+
+#ATAT{
+	position: fixed 					!important;
+	bottom: 0							!important;
+	left: 0								!important;
+	z-index: -1							!important;
+	
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+#ATAT:hover{
+	transform: scale(1.2);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#ATAT:not(:hover){
+	transform: scale(1);
+	-webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.anim {
+	margin-bottom: 13px;
+    text-align: center;
+	
+	transform: translateX(0,0);
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+	
+	
+
+@media (max-width: 600px){
+	img{
+    max-width: 100%;
+    height: auto;
+	}
+}
+
+
+body{
+	background-color: #033434!important;
+}
+
+
+
