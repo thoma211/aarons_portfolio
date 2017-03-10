@@ -30,9 +30,10 @@ a:hover{
 .picture{
 	width: 1950px!important;
 	max-height: 800px;
+	padding-top: 75px;
 }
 
-.img-responsive{
+.container-pic{
 	overflow: hidden!important;
 }
 
