@@ -12,6 +12,7 @@
 	font-weight: 100;
 	letter-spacing: 1px;
 	font-size: 17px;
+	padding-right: 20px;
 }
 
 a{
@@ -202,7 +203,7 @@ body:after {
     height: 10px;
 }
 
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 841px) {
 	#topFixedNavbar1 ul li a{
 		padding: 5px!important;
 	}
@@ -211,8 +212,8 @@ body:after {
 .footer {
   font-family: "Century Gothic";
   background-color: white;
-   position: fixed;
-    bottom: 0;
-    width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 
 }
