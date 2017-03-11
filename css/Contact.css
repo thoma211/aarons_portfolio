@@ -28,7 +28,7 @@ color: lightseagreen!important;
 }
 
 .picture{
-	width: 1900px!important;
+	width: 1927px!important;
 }
 
 .container{
@@ -114,9 +114,9 @@ h4, p{
 
 .footer {
   font-family: "Century Gothic";
-  bottom: 0;
-  left: 0;
-  padding: 0.1rem;
   background-color: white;
-  text-align: left;
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+
 }

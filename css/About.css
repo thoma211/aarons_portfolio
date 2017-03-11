@@ -24,13 +24,14 @@ a:hover{
 
 
 .col{
-	height: 700px;
+	height: 827px;
+	overflow: hidden;
 }
 
 .picture{
 	width: 1950px!important;
-	max-height: 800px;
-	padding-top: 75px;
+	height: 927px;
+	padding-top: 76px;
 }
 
 .container-pic{
@@ -213,5 +214,5 @@ body:after {
    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 50px;
+
 }
