@@ -219,9 +219,8 @@ body:after {
     font-family: -apple-system;
     font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
     font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
-  background-color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
