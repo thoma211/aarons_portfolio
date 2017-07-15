@@ -26,6 +26,7 @@ a { color:white!important;}
 a {
     font-family: -apple-system;
     font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 	font-size: 14px						!important;
 	font-weight: 100					!important;
 	letter-spacing: 5px					!important;
