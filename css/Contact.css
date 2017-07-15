@@ -14,7 +14,6 @@
 	font-weight: 100;
 	letter-spacing: 1px;
 	font-size: 17px;
-	padding-right: 20px;
 }
 
 a{
@@ -22,7 +21,7 @@ a{
 }
 
 a:hover{
-color: lightseagreen!important;
+	color: lightseagreen!important;
 }
 
 .img-responsive{

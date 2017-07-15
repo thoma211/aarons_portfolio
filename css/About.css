@@ -80,7 +80,7 @@ p {
 .back {
     width: 662px;
     height: 631px;
-    overflow: hidden !important;
+	overflow: hidden !important;
     -webkit-transform: rotateY(-180deg);
 }
 
@@ -104,7 +104,7 @@ p {
     float: right !important;
 }
 
-@media screen and (min-width: 150px) and (max-width: 1374px) {
+@media screen and (min-width: 150px) and (max-width: 1025px) {
     #cardPosition, .front, .back, .card-info {
         left: 0;
         height: 100%;
@@ -125,23 +125,8 @@ p {
 }
 
 @media screen and (min-width: 150px) and (max-width: 600px) {
-    p, h2 {
-        margin: 20px !important;
-        padding: 25px !important;
-
-    }
-}
-
-@media screen and (min-width: 150px) and (max-width: 600px) {
     p {
         font-size: 14px !important;
-
-    }
-}
-
-@media screen and (min-width: 150px) and (max-width: 600px) {
-    h2 {
-        font-size: 20px !important;
 
     }
 }
