@@ -12,7 +12,9 @@ body{
 }
 
 .navbar{
-	font-family: "Century Gothic";
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 	font-weight: 100;
 	letter-spacing: 1px;
 	font-size: 17px;
@@ -27,20 +29,28 @@ a:hover{
 }
 
 #image-gallery-title{
-	font-family: "Century Gothic";
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 	font-size: 20px
 }
 
 #image-gallery-caption{
-	font-family: "Century Gothic";
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 }
 
 #show-previous-image{
-	font-family: "Century Gothic"
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 }
 
 #show-next-image{
-	font-family: "Century Gothic"
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 }
 
 img {
@@ -154,7 +164,9 @@ img {
 }
 
 .footer {
-  font-family: "Century Gothic";
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
   bottom: 0;
   left: 0;
   padding: 0.1rem;
