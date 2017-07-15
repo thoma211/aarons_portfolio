@@ -8,7 +8,9 @@
 }
 
 .navbar{
-	font-family: "Century Gothic";
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 	font-weight: 100;
 	letter-spacing: 1px;
 	font-size: 17px;
@@ -43,16 +45,22 @@ color: lightseagreen!important;
 
 
 h2{
-	font-family: "Century Gothic"!important;
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 	font-weight: 100!important;
 }
 
 h4, p{
-	font-family: "Century Gothic"!important;
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 }
 
 .form-control{
-	font-family: "Century Gothic";
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 	padding: 5px!important;
 }
 
@@ -113,9 +121,11 @@ h4, p{
 }
 
 .footer {
-  font-family: "Century Gothic";
-  background-color: white;
-   position: fixed;
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
+  	background-color: white;
+   	position: fixed;
     bottom: 0;
     width: 100%;
 
