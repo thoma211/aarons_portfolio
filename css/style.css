@@ -24,7 +24,8 @@ a { color:white!important;}
 }
 
 a {
-	font-family: "Century Gothic"		!important;
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
 	font-size: 14px						!important;
 	font-weight: 100					!important;
 	letter-spacing: 5px					!important;
