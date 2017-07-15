@@ -4,7 +4,9 @@ a { color:white!important;}
 
 .enterbutton {
 	color: white;
-	font-family: "Century Gothic" 		!important;
+    font-family: -apple-system;
+    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
+    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 	font-size: 34px 					!important;
 	letter-spacing: 8px 				!important;
 }
