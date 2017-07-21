@@ -46,7 +46,7 @@ a:hover{
 	top: 25%;
 	right: 300px;
 	padding: 20px;
-	width: 310px!important;
+	width: 280px!important;
 	height: auto;
 }
 
@@ -126,7 +126,7 @@ h4, p{
 @media screen and (min-width: 150px) and (max-width: 1374px){
 	.container{
 	left: 0;
-	width: 310px!important;
+	width: 280px!important;
 	height: auto;
 	}
 }
