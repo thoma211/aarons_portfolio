@@ -16,18 +16,19 @@
 	font-size: 17px;
 }
 
-a{
-	padding-left: 50px;
-	font-family: -apple-system;
+.btn{
+    font-family: -apple-system;
     font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
-    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
+	font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 }
 
-.LI-title{
-	font-family: -apple-system;
-    font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
-    font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
+.btn:hover{
+		color: lightseagreen!important;
 }
+a{
+	padding-left: 50px;
+}
+
 a:hover{
 	color: lightseagreen!important;
 }
@@ -43,11 +44,13 @@ a:hover{
 .container{
 	background-color: white;
 	position:absolute;
-	top: 25%;
-	right: 300px;
+	top: 33%;
+	right: 300px!important;
 	padding: 20px;
-	width: 280px!important;
+	width: 255px!important;
 	height: auto;
+	border-radius: 10px;
+	border: 1px solid black;
 }
 
 
@@ -56,6 +59,8 @@ h2{
     font-family: '-apple-system','Century Gothic' 	!important; /* iOS 8 compatible, credit: @MarcoBoschi*/
     font-family: "blisslight", blisslight, "blissregular", blissregular, Arial, sans-serif;
 	font-weight: 100!important;
+	color: lightseagreen!important;
+	padding-bottom: 20px;
 }
 
 h4, p{
@@ -88,8 +93,10 @@ h4, p{
 
 /* Style all font awesome icons */
 .fa {
-    text-align: center;
-    text-decoration: none;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: 15px;
+	align-items: center;
 }
 
 /* LinkedIn hover effect*/
@@ -126,7 +133,7 @@ h4, p{
 @media screen and (min-width: 150px) and (max-width: 1374px){
 	.container{
 	left: 0;
-	width: 280px!important;
+	width: 255px!important;
 	height: auto;
 	}
 }
