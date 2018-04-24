@@ -83,7 +83,8 @@ img {
 	background-color: transparent!important;
 	border: none!important;
     box-shadow: none!important;
-
+	width: auto;
+	height: 100%;
 }
 
 .img-responsive{
@@ -94,9 +95,12 @@ img {
 	background-color: transparent!important;
 }
 
-.modal-content{
+.modal-body{
 	width: 100%
+}
 
+.modal-dialog{
+	width: 100%
 }
 
 /* Removes Bootstraps default, grey background image. */
