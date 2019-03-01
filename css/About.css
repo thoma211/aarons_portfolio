@@ -43,8 +43,8 @@ a:hover {
 /*Flipping card*/
 .info-card {
     float: left;
-    margin: 10px;
-    -webkit-perspective: 600px;
+    margin: 1px;
+    -webkit-perspective: 1000px;
 }
 
 h2 {
